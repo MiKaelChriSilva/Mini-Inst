@@ -46,3 +46,61 @@ document.getElementById('postButton').addEventListener('click', function() {
         alert('Por favor, escreva algo antes de publicar.');
     }
 });
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+
+.post-form{
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#posts{
+    margin: 20px;
+}
+
+.post{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
